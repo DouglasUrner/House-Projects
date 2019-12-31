@@ -10,5 +10,16 @@ gantt
     Order Ducting             :after plan-ductwork, 2h
   
   section Repairs
+    Empty Cabinets            :empty-cabinets, 2d
+    Remove Fixtures           :2d, after empty-cabinets
+    Wiring                    :1d
+    Plumbing                  :2d
+    New Sheet Rock            :4d
   
   section Water Heater
+    Frame Enclosure           :2d
+    Drain Pan                 :drain-pan, 1d
+    Move WH                   :after drain-pan, 4h
+    Wiring                    :2h
+    Plumbing                  :1d
+    Duct Work                 :4d
