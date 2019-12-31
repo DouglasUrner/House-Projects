@@ -3,8 +3,11 @@ gantt
 
   section Planning
     Water Distribution        :plan-water, 2d
+    Duct Work                 :plan-ductwork, 2d
   
   section Logistics
+    Order Plumbing Parts      :after plan-water, 2h
+    Order Ducting             :after plan-ductwork, 2h
   
   section Repairs
   
