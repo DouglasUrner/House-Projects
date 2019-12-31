@@ -7,7 +7,7 @@
     <script>mermaid.initialize({startOnLoad:true});</script>
 
     <div class="mermaid">
-          
+     {% include gantt-chart.mermaid %}    
     </div>
 
   </body>
